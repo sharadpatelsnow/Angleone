@@ -29,16 +29,7 @@ def send_telegram_message(message):
     except Exception as e:
         print("Error sending Telegram message:", str(e))
 
-# === Credentials ===
-# API_KEY = "fygjVzaM"
-# CLIENT_CODE = "S1264837"
-# PWD = "3085"
-# TOTP_SECRET = "REANIKCS5P4FWTMXS2BGGTN2GQ"
 
-# API_KEY = st.sidebar.text_input("API Key", type="password", value="")
-# CLIENT_CODE = st.sidebar.text_input("Client Code", value="")
-# PWD = st.sidebar.text_input("Password", type="password", value="")
-# TOTP_SECRET = st.sidebar.text_input("TOTP Secret", type="password", value="")
 
 
 st.set_page_config(page_title="NIFTY Options Trader", layout="wide")
